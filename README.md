@@ -21,7 +21,7 @@ O presente trabalho utiliza-se de modelos de Redes Neurais do tipo Autoencoder e
 
 In industry, there has always been a constant need to increase production with minimal process limits. Added to this, in recent years, with the increase in computational power and storage capacity, the volume of available data has increased considerably, making room for the consequent increase in the use of Machine Learning and Deep Learning methods for detection and diagnosis of failures (anomalies) in equipment and processes.
 
-The present work uses Autoencoder and LSTM-Autoencoder (Autoencoder architecture using LSTM layers) Neural Network models to create a representation of the normal operation data of a [process plant (Tennessee Eastman Process)](.\dataset.md) in a subspace resulting from the original space of the database and, from this representation, a SVM (Support Vector Machine) model is used to classify the resulting vector (obtained from the Autoencoder) in **normal** or **failure** modes. 
+The present work uses Autoencoder and LSTM-Autoencoder (Autoencoder architecture using LSTM layers) Neural Network models to create a representation of the normal operation data of a [process plant (Tennessee Eastman Process)](./dataset.md) in a subspace resulting from the original space of the database and, from this representation, a SVM (Support Vector Machine) model is used to classify the resulting vector (obtained from the Autoencoder) in **normal** or **failure** modes. 
 
 ---
 
